@@ -3,7 +3,7 @@ export const buildAdsView = (ads) => {
 
 
     const adsView = `
-    <a href="http://localhost:8080/tweetDetail.html?id=${ads.id}">
+    <a href="http://localhost:8080/adsDetail.html?id=${ads.id}">
         <img src="${ads.image}" alt="">
         <p>${ads.name}</p>
         <p>${ads.description}</p>
@@ -15,7 +15,7 @@ export const buildAdsView = (ads) => {
     return adsView;
 }
 
-export const buildTweetListSpinner = () => {
+export const buildAdsListSpinner = () => {
     return `
     <div class="spinner"><div></div><div></div><div></div></div>
     `

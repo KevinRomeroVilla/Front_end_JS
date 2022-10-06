@@ -1,6 +1,6 @@
 import { pubSub } from "../pubSub.js";
 import { getAds } from "./ads-list-provider.js";
-import { buildAdsView, buildEmptyAdsList, buildTweetListSpinner } from "./ads-list-view.js";
+import { buildAdsView, buildEmptyAdsList, buildAdsListSpinner } from "./ads-list-view.js";
 
 export class AdsListController {
 
@@ -12,7 +12,7 @@ export class AdsListController {
     }
 
     async loadAds() {
-        this.adsContainerElement.innerHTML = buildTweetListSpinner()
+        this.adsContainerElement.innerHTML = buildAdsListSpinner()
         let ads = [];
 
         try {
