@@ -34,6 +34,21 @@ class SparrestApi {
 
         return data;
     }
+
+    async delete(endPoint) {
+        const token = localStorage.getItem('token')
+        const respone = await fetch(`${this.baseurl}${endPoint}`, {
+            method:'DELETE',
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${token}`
+            }
+        })
+
+        const data = await respone.json()
+
+        return data;
+    }
 }
 
 export const sparrestApi = new SparrestApi()

@@ -1,6 +1,4 @@
 export const buildAdsView = (ads) => {
-    const formattedDate = new Date(ads.updatedAt);
-
 
     const adsView = `
     <a href="http://localhost:8080/adsDetail.html?id=${ads.id}">

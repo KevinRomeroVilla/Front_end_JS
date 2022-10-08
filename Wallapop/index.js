@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const token = localStorage.getItem('token')
         const userActions = document.querySelector('#user-actions')
         if (token) {
-            userActions.innerHTML = '<a href="/createTweet.html">Crear Anuncio</a>'
+            userActions.innerHTML = '<a href="/createAd.html">Crear Anuncio</a>'
         } else {
             userActions.innerHTML = `
             <a href="/signup.html">Signup</a>
