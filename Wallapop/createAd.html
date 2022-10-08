@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creacion de anuncio</title>
+</head>
+<body>
+    <h2>Creacion de anuncio</h2>
+
+    <section class="notificacion-container">¿Qué quieres publicar?</section>
+
+    <form id="create-ad-form">
+        <label for="ad-creation">
+            <div>
+                <label for="imagen_producto">imagen del producto opcional (en nuestro caso un link)</label>
+                <input id="imagen_producto" name="imagen_producto" type="text">
+            
+            <div>
+            <div>
+                <label for="Nombre_producto">Nombre del producto</label>
+                <input class="obigatorio" id="Nombre_producto" name="Nombre_producto" type="text">
+            
+            <div>
+                <label for="Descripción_producto">Descripción del producto</label>
+                <input class="obigatorio" id="Descripción_producto" name="Descripción_producto" type="text">
+            </div>
+            <div>
+                <label for="Precio_producto">Precio del producto</label>
+                <input class="obigatorio" id="Precio_producto" name="Precio_producto" type="text">
+            </div>
+            <div>
+                <label for="compra_o_venta">Estado del producto</label>
+                <input class="obigatorio" id="compra_o_venta" name="compra_o_venta" type="text" placeholder="compra o venta">
+            </div>
+
+            <button class="create-ad-button" disabled>Crear anuncio</button>
+        </label>
+    </form>
+
+    <script type="module" src="./create-ad/index.js"></script>
+</body>
+</body>
+</html>
