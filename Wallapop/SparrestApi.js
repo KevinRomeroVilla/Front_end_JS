@@ -30,6 +30,10 @@ class SparrestApi {
             }
         })
 
+        if(!respone.ok) {
+            throw new Error
+        }
+
         const data = await respone.json()
 
         return data;
