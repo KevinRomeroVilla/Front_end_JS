@@ -57,6 +57,10 @@ export class SignUpController {
             //login 
             const jwt = await loginApiUser(username,password)
             localStorage.setItem('token', jwt)
+            alert("Creación y logeo de manera correcta")
+            setTimeout(() => {
+                window.location = '/index.html'
+            }, 2000);
         } catch (error) {
             pubSub.publish(pubSub.TOPICS.NOTIFICATION_ERROR, `Hubo un problema al momento de crear el usuario`)
         }

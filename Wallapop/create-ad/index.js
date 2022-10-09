@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const notificationController = new NotificationController(notificacionContainerElement);
 
     const createAdElement = document.querySelector('#create-ad-form');
-    const createTweetController = new CreateAdController(createAdElement);
+    const createAdtController = new CreateAdController(createAdElement);
 
     checkUserLogged();
 })
