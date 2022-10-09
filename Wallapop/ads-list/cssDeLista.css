@@ -1,0 +1,13 @@
+.mediana{
+    width: 250px;
+    height: 250px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.letra{
+    font-family:fantasy;
+    font-size:medium;
+  }

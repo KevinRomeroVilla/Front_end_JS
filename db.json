@@ -1,1 +1,49 @@
-{"users":[{"username":"sup","password":"$2b$10$L.CFpL3lph9SRdGSCicsh.xqZy72oH8rK8dD.znemLdGoYNgNG1Ui","id":1},{"username":"Prueba1","password":"$2b$10$hKX9paSUddd6fQgUto4n3ePMG6pj.zQW2homIwYdNd1XbMHiKHglm","id":2},{"username":"Prueba2","password":"$2b$10$hKX9paSUddd6fQgUto4n3er/vXyGKWWx8iiUU.Fe8rNvCYqq8UIou","id":3}],"ads":[{"image":"https://exitocol.vtexassets.com/arquivos/ids/5205305/control-inalambrico-playstation-4-camuflado.jpg?v=637423471604430000","name":"Control play 4","description":"control de play 4 en buen estado","price":"100","condition":"venta","userId":3,"id":1},{"image":"https://falabella.scene7.com/is/image/FalabellaCO/1745210_1?wid=800&hei=800&qlt=70","name":"Bicicleta todo terreno","description":"Bicicleta todo terreno en buen estado para futura carrera","price":"150","condition":"compra","userId":2,"id":1}]}
+{
+  "users": [
+    {
+      "username": "sup",
+      "password": "$2b$10$L.CFpL3lph9SRdGSCicsh.xqZy72oH8rK8dD.znemLdGoYNgNG1Ui",
+      "id": 1
+    },
+    {
+      "username": "Prueba1",
+      "password": "$2b$10$hKX9paSUddd6fQgUto4n3ePMG6pj.zQW2homIwYdNd1XbMHiKHglm",
+      "id": 2
+    },
+    {
+      "username": "Prueba2",
+      "password": "$2b$10$hKX9paSUddd6fQgUto4n3er/vXyGKWWx8iiUU.Fe8rNvCYqq8UIou",
+      "id": 3
+    }
+  ],
+  "ads": [
+    {
+      "image": "https://exitocol.vtexassets.com/arquivos/ids/5205305/control-inalambrico-playstation-4-camuflado.jpg?v=637423471604430000",
+      "name": "Control play 4",
+      "description": "control de play 4 en buen estado",
+      "price": "100",
+      "condition": "venta",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "image": "https://falabella.scene7.com/is/image/FalabellaCO/1745210_1?wid=800&hei=800&qlt=70",
+      "name": "Bicicleta todo terreno",
+      "description": "Bicicleta todo terreno en buen estado para futura carrera",
+      "price": "150",
+      "condition": "compra",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "image": "https://sc04.alicdn.com/kf/HTB1zgr2ah_rK1RkHFqDq6yJAFXa9.jpg",
+      "name": "pantalla",
+      "description": "pantalla de 35 pulgadas",
+      "price": "64",
+      "condition": "compra",
+      "userId": 3,
+      "updatedAt": "2022-10-08T23:02:16.749Z",
+      "id": 4
+    }
+  ]
+}

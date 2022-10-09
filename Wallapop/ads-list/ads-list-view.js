@@ -1,13 +1,15 @@
 export const buildAdsView = (ads) => {
 
     const adsView = `
+    <div class="centrar">
     <a href="http://localhost:8080/adsDetail.html?id=${ads.id}">
-        <img src="${ads.image}" alt="">
-        <p>${ads.name}</p>
-        <p>${ads.description}</p>
-        <p>${ads.price}</p>
-        <p>${ads.condition}</p>
-    </a>            
+        <img src="${ads.image}" alt="" class="mediana">
+        <p class="letra">${ads.name}</p>
+        <p class="letra">${ads.description}</p>
+        <p class="letra">${ads.price}</p>
+        <p class="letra">${ads.condition}</p>
+    </a>
+    </div>          
     `
 
     return adsView;
