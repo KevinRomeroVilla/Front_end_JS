@@ -37,4 +37,17 @@ export class AdsDetailController {
         }
     }
 
+    async removeAds() {
+        const response = window.confirm('¿seguro que quieres borrar el tweet?');
+        if (response) {
+            try {
+                await removeAdsById(this.ads.id)
+                alert('tweet borrado exitosametne')
+                window.location = '/'     
+            } catch (error) {
+                pubSub.publish(pubSub.TOPICS.NOTIFICATION_ERROR, 'Error borrando el anuncio')
+            }
+        }
+    }
+
 }
