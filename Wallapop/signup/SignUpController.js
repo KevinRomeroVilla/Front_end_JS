@@ -35,6 +35,7 @@ export class SignUpController {
 
         if(passwordElement.value.length <= minLength) {
             pubSub.publish(pubSub.TOPICS.NOTIFICATION_ERROR, `La contraseña debe tener más de ${minLength} caracteres`)
+            return
         }
 
         const regExp = new RegExp(/^[a-zA-Z0-9]*$/)

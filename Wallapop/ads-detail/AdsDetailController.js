@@ -42,7 +42,7 @@ export class AdsDetailController {
         if (response) {
             try {
                 await removeAdsById(this.ads.id)
-                alert('tweet borrado exitosametne')
+                alert('anuncio borrado exitosametne')
                 window.location = '/'     
             } catch (error) {
                 pubSub.publish(pubSub.TOPICS.NOTIFICATION_ERROR, 'Error borrando el anuncio')

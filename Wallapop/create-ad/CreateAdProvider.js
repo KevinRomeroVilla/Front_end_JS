@@ -7,4 +7,5 @@ export const createApiAd = (Nombre_producto, Descripción_producto, Precio_produ
         price:Precio_producto,
         condition:compra_o_venta
     })
+    alert('creado exitosamente exitosametne')
 }
